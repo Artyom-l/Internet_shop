@@ -1,0 +1,32 @@
+footer {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, .1);
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 25px;
+}
+
+footer a{
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+  margin-left: 10px;
+  
+
+}
+
+footer nav a:hover {
+  border-bottom: 1px solid brown;
+}
+
+.social img{
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.social img:hover{
+  background: coral;
+  border-radius: 50%;
+}

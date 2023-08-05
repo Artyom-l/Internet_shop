@@ -1,0 +1,41 @@
+.cart {
+    width: 0px;
+    height: 0px;
+    border-radius: 50%;
+    
+    transition: 0.1s;
+    cursor: pointer;
+    position: fixed; /* Фиксированное расположение */
+    top: 50px; /* в правом верхнем углу */
+    right: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: contain;
+    padding: 15px;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Увеличиваем кнопку при наведении на нее */
+  .cart:hover {
+    transform: scale(1.1);
+  }
+  
+  /* Стилизуем счетчик товаров */
+  .cart__num {
+    position: absolute;
+    background-color: coral;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    top: -5px;
+    right: -5px;
+  }
+
+ 
